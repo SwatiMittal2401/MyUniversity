@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>
+          E-Commerce
+      </title>
+      <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+     <!-- Optional theme -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/CSS" href="index.css">
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>            
+      </style>
+     </head>
+     <body>
+       <nav class="nav nav_top">
+           <div class="logo">
+       <a href="index.html"><img src="https://images.idgesg.net/images/article/2019/09/apple-logo-colors-01-100810554-large.jpg" width="150px"></a>
+           </div>
+           <div class="nav_side">
+               <a href="about.html">About Us</a>
+               <a href="service.html">Services</a>
+               <a href="blogs.html">Blogs</a>
+               <a href="contact.html">Contact</a>
+               <a href="">Login/Register</a>
+
+           </div >
+       </nav>
+       <div class="contact_container">
+        <h2>Contact Us</h2>
+        <div class="g_map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.1751349614747!2d76.6575891150809!3d30.51608648171321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fc32344a6e2d7%3A0x81b346de
+            e91799ca!2sChitkara%20University!5e0!3m2!1sen!2sin!4v1630760947753!5m2!1sen!2sin"
+             width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+             </div>
+             <div class="contact_content"></div>
+            <p><b>Address: Chitkara University,Rajpura(140-401),PB, India</b></p>
+            <p><b>Contact: +91 8573596356</b></p>
+            </div>
+       <div class="feed">
+        <h2>Write a review</h2>
+        <div class=feed_form>
+         <form name="submit-googlesheet" method="post">
+                <input type="text" name="Name" placeholder="Name"><br>
+                <input type="text" name="Email" placeholder="E-mail"><br>
+                <input type="text" name="Number" placeholder="Contact No."><br>
+                <textarea rows="5" cols="7" name="Review" placeholder="WRITE YOUR REVIEWS"></textarea><br>              <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+    <hr>
+    <footer>
+        <div class="footer_logo">
+            <a href="index.html"><img src="https://images.idgesg.net/images/article/2019/09/apple-logo-colors-01-100810554-large.jpg" width="150px"></a>
+        </div>
+        <div class="pages">
+            <h3>Pages</h3>
+        <a href="">About Us</a>|
+        <a href="">Services</a>|
+        <a href="">Blogs</a>|
+        <a href="">Login</a>|
+        <a href="">Sign up</a>|
+        </div>
+        <div class="doc">
+            <h3>Documents</h3>
+            <a href="">Privacy Policy</a>|
+            <a href="">Terms of use</a>|
+            <a href="">Refund Policy</a>|
+    
+        </div>
+        <div class="social">
+            <h3>Follow us</h3>
+           <a href=""></a>
+           <a href=""></a>
+           <a href=""></a>
+           <a href=""></a>
+        </div>
+        <div class="contact">
+            <h3>Contact us</h3>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+        </div>
+        <hr>
+        <p>Copyright &copy; 2021 1stop.All rights reserved</p>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+     <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/JavaScript">
+         const scriptURL ='https://script.google.com/macros/s/AKfycbwMPycM-NH7obVA8ZnotRomnvYXYS1r9LBRhFK6f9eezqsgc2UqQ3qQCcwPkm197rDilg/exec'
+                const form = document.forms['submit-googlesheet']
+              
+                form.addEventListener('submit', e => {
+                  e.preventDefault()
+                  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(response => alert("Thank you .. Will get back to you Soon..."))
+                    .catch(error => console.error('Error!', error.message))
+                })
+    </script>
+            
+        </body>
+         </html>

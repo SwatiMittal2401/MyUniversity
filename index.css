@@ -1,0 +1,452 @@
+
+    .nav{
+        background-color: chartreuse;
+        z-index:9;
+        padding:10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        box-shadow: 0px 3px 65px 0px darkmagenta;
+        
+    }
+    .nav_top{
+        position:fixed;
+        top:0;
+        right:0;
+        left:0;
+        display:flex;
+
+    }
+    .logo img{
+        padding:10px;
+        margin-left: 20px;
+    }
+    .logo{
+        float:left;
+    }
+    .nav_side{
+        float:right;
+        width:40%;
+
+    }
+    .nav_side a{
+        text-decoration: black;
+        margin-right: 20px;
+        padding-top: 20px;
+        font-weight:bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .main{
+        background-image: url(https://wallpapertag.com/wallpaper/full/f/a/d/315938-science-background-1920x1080-download-free.jpg);
+        background-position:center;
+        background-size: cover;
+        background-repeat: no-repeat;
+         height:80vh;
+    }   
+    .main .main_content{
+        padding-top:20%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+     .main .main_content h2{
+               color:ghostwhite;
+               font-size: 60px;
+               font-family:Verdana, Geneva, Tahoma, sans-serif;
+               font-weight: bolder;
+               text-align: center;
+               line-height: 20px;
+    }
+    .main .main_content h2 span{
+         font-size:20px;
+         opacity:0.9;
+         font-weight: lighter;
+
+
+    }
+    .main .main_content .btn{
+        margin-top:50px;
+        margin-left: 400px;
+     }
+     .main .main_content .btn a{
+         text-decoration:none;
+         margin:80px;
+         padding:10px 20px;
+         background-color:cornsilk;
+         color:black;
+         font-family:Verdana, Geneva, Tahoma, sans-serif;
+         text-align: center;
+         border:black solid;
+         border-radius: 10px;
+     }
+     .main .main_content .btn a:hover{
+         background-color:yellow;
+         color:black;
+         border:none;
+         border-bottom: 4px solid black;
+         transition:0.5s;
+        }
+.product{
+            padding-bottom: 50px;
+        }
+.product h2{
+            color:darkred;
+            font-size:35px;
+            text-align: center;
+            padding: 20px;
+        }
+        .product .product_container{
+            display:flex;
+            margin-left: 5%;
+            margin-right: 5%;
+
+        }
+        .product .product_container .item{
+            width:33.33%;
+            margin:10px;
+            height:auto;
+        }
+        .product .product_container .item:hover{
+          box-shadow: 0px 3px 65px 0px yellowgreen;
+        }
+        .product  .product_container .item .item_img{
+            width:100%;
+            height:250px;
+            overflow:hidden;
+        }
+        .product .product_container .item .item_img img{
+            width:100%;
+            height:250px;
+        }
+        .product .product_container .item .item_content{
+            text-align: center;
+        }
+        .product .product_container .item .item_content h3{
+         padding:10px;
+         font-size: 25px;
+         font-family: cursive;
+
+        }
+        .product .product_container .item .item_content p{
+            padding:10px;
+            font-size: 12px;
+            font-family: cursive;
+            }
+            .product .product_container .item .item_content a{
+                text-decoration:none;
+                margin:80px;
+                padding:10px 20px;
+                background-color:red;
+                color:white;
+                font-family:'Times New Roman', Times, serif;
+                text-align: center;
+                border:black solid;
+                border-radius: 10px;
+            }
+            .product .product_container .item .item_content a:hover{
+                background-color:yellow;
+                color:black;
+                border:none;
+                border-bottom: 4px solid black;
+                transition:0.5s;
+               }
+              .product .product_btn{
+                  text-align: center;
+                  margin-top: 100px;
+              }
+              .product .product_btn a{
+                  text-decoration: none;
+                  margin:80px;
+                  padding: 10px 10px;
+                  background-color: blue;
+                  font-family: 'Times New Roman', Times, serif;
+                  border:2px solid black;
+                  border-bottom: 4px solid black;
+                  text-align:center;
+                  border-radius: 10px;
+                  transition:-5s;
+                  color:cornsilk;
+              }
+               .product .product_btn a:hover{
+                   color:orange;
+                   background-color:darkgoldenrod;
+                   box-shadow: 5px 5px 5px;
+                   color:black;
+                   transform:-5s;
+               }
+               
+              
+            .keypoints{
+                   padding:50px;
+
+               }
+               .keypoints .key_container{
+                   display:flex;
+               }
+               .keypoints .key_container .key_content{
+                   width:40%;
+                   padding:20px;
+                   float: left;
+                }
+                .keypoints .key_container .key_content li{
+                    margin:10px;
+                    padding:10px;
+                    border-left: 2px solid purple;
+                    color:black;
+                    text-align: left;
+                    font-family: Arial, Helvetica, sans-serif;
+                    box-shadow:0px 3px 65px 0px yellow;
+                }
+                .keypoints .key_container .key_img{
+                    margin: 20px;
+                    margin-left: 200px;
+                    width:40%;
+                    float:right;
+                
+                    
+                }
+                .keypoints .key_container .key_img img{
+                    width:700px;
+                    
+                    border:black solid 10px;
+                    border-radius: 10px;
+                    box-shadow:chartreuse;   
+            }
+            .testi{
+                padding: 50px;
+            }
+            .testi h2{
+                margin-top: -3%;
+                color:rgb(185, 23, 23);
+                font-size:35px;
+                text-align:center;
+                padding: 10px;
+                text-transform: uppercase;
+            }
+            .testi p{
+                color: aliceblue;
+                text-align: center;
+            }
+            .testi .testi_container{
+                margin-left: 10%;
+                margin-right: 10%;
+                text-align: center;
+            }
+            .testi .testi_container .carousel-inner{
+                background-color: white;
+                box-shadow: none;
+            }
+            .testi .testi_container .item{
+                width: 100%;
+                margin: 8px;
+                background-color:rgb(240, 32, 32);
+                box-shadow: none;
+            }
+            .testi .testi_container .item .item_img{
+                width: 100%;
+                height: 500px;
+                text-align: center;
+                overflow: hidden;
+            }
+            .testi .testi_container .item .item_img img{
+                border-radius: 2%;
+                margin-bottom: 10px;
+            }
+            .testi .testi_container .item .item_content{
+                text-align: center;
+            }
+            .testi .testi_container .item .item_content h2{
+                padding: 10px;
+                font-size: 20px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .testi .testi_container .item .item_content p{
+                padding: 10px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+                .team{
+                    padding:50px;
+                }
+                .team .team_container{
+                    display:flex;
+
+                }
+                .team .team_container .team_video{
+                    width:50%;
+                    padding:20px;
+
+                }
+                .team .team_container .team_video iframe{
+                    width:100%;
+                    border:10px solid darkred;
+
+                }
+                .team .team_container .team_content{
+                    width:40%;
+                    padding:20px;
+                    margin-left: 50px;
+                }
+                .team .team_container .team_content p{
+                    padding:1px;
+                    font-size: 15px;
+                    font-family:Verdana, Geneva, Tahoma, sans-serif;
+                    font-weight: bold;
+                    color: black;
+
+                }
+                .feed{
+                    padding: 50px;
+                    background-image: url(https://tse3.mm.bing.net/th?id=OIP.hh-ASG96oPbbtWm5o5vsJAHaEo&pid=Api&P=0&w=267&h=168);
+                    background-size: cover;
+                }
+                .feed h2{
+                    color:aliceblue;
+                    font-size: 35px;
+                    text-align: center;
+                    padding: 10px;
+                    transform: uppercase;
+                }
+                .feed .feed_form{
+                    text-align: center;
+                }
+                .feed .feed_form form{
+                    padding: 20px;
+                }
+                .feed .feed_form form input{
+                    width: 30%;
+                    margin: 5px;
+                    padding: 8px;
+                    outline: none;
+                    border: none;
+                }
+                .feed .feed_form form textarea{
+                    width: 30%;
+                    margin: 5px;
+                    padding: 8px;
+                    outline: none;
+                    border: none;
+                }
+                .feed .feed_form form button{
+                    width: 30%;
+                    margin: 5px;
+                    padding: 8px;
+                    outline: none;
+                    border: none;
+                    background-color:black;
+                    color: aliceblue;
+                    border-radius: 5px;       
+                }
+                .about_us{
+                    padding: 20%;
+                }
+                .about_us h2{
+                    color:rgb(207, 26, 26);
+                    text-shadow: 10px green;
+                    font-size: 35px;
+                    text-align:center;
+                    padding:10px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    text-transform: uppercase;
+                    margin-top: -10px;
+                }
+                .about_us p{
+                    text-shadow: aliceblue;
+                    background-color: antiquewhite;
+                    text-align: center;
+                    color: black;
+                    font-size:x-large;
+                    margin-top: -20px;
+                }
+                .contact_container{
+                    padding: 100px;
+                }
+                .contact_container h2{
+                    color:rgb(207, 26, 26);
+                    text-shadow: 10px green;
+                    margin-top: 30px;
+                    font-size: 35px;
+                    text-align: center;
+                    padding:10px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    text-transform: uppercase;
+                }
+                .contact_container .g_map{
+                    border: 10px solid red;
+                }
+                .contact_container .Contact_content{
+                    padding: 20px;
+                }
+                .contact_container .Contact_content p{
+                    padding: 10px;
+                    font-size: 60px;
+                    text-align: center;
+                    color: aliceblue;
+                    background-color: black;
+                    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    line-height: 25px;
+                }
+                footer{
+                    background-color: darkred;
+                    padding: 5px;
+                }
+                footer .pages{
+                    text-align: center;
+
+                }
+                footer .pages h3{
+                    color:black;
+                    font-size:20px;
+                    font-family: 'Times New Roman', Times, serif;
+                    padding:5px;
+                }
+                footer .pages a{
+                    text-decoration: none;
+                    margin:10px;
+                    color:cornsilk;
+                    font-size: 15px;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                footer .pages a:hover{
+                    color:darkblue;
+
+                }
+                footer .doc{
+                    text-align: center;
+
+                }
+                footer .doc h3{
+                    color:black;
+                    font-size:20px;
+                    font-family: 'Times New Roman', Times, serif;
+                    padding:5px;
+                }
+                footer .doc a{
+                    text-decoration: none;
+                    margin:10px;
+                    color:cornsilk;
+                    font-size: 15px;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                footer .doc a:hover{
+                    color:darkblue;
+
+                }
+                footer .social{
+                    text-align: center;
+
+                }
+                footer .social h3{
+                    color:black;
+                    font-size:20px;
+                    font-family: 'Times New Roman', Times, serif;
+                    padding:5px;
+                }
+                footer .contact{
+                    text-align: center;
+
+                }
+                footer .contact h3{
+                    color:black;
+                    font-size:20px;
+                    font-family: 'Times New Roman', Times, serif;
+                    padding:5px;
+                }
+                

@@ -1,0 +1,439 @@
+*{
+    margin: 0%;
+}
+h1{
+    color:indigo;
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600px;
+    text-shadow: 2px 4px 2px #0b3a50;
+ }
+ p{
+    background-color:chocolate;
+    color:black;
+    font-size: medium;
+    font-size: large;
+    font-weight: 600;
+ 
+ }
+p{
+    background-color:yellow;
+}
+.nav{
+    background-color:greenyellow;
+    z-index: 9;
+    font-size:large;
+    font-weight: 300px;
+    text-align: center;
+    text-align-last:initial;
+    lighting-color:red;
+    padding: 5px;
+    display: flex;
+    box-shadow: 2px 20px 40px darkgreen;
+   text-shadow:  4px 4px 4px solid black; 
+}
+.container{
+    display: flex;
+  }
+  .container .card{
+     width: 40%;
+     height: 250px;
+     border: 10px;
+     border-color: black;
+     margin: 40px;
+  } 
+  .container .card1{
+     background-image: url(https://img.freepik.com/free-photo/young-woman-having-idea-while-studying_23-2147657039.jpg?size=626&ext=jpg);
+     border: 7px black;
+     height: 400px;
+     width: 400px;
+     background-size: cover;
+     margin: 10px;
+     text-align: center;
+  }
+  .container .card2{
+     background-image: url(https://img.freepik.com/free-photo/young-woman-having-idea-while-studying_23-2147657039.jpg?size=626&ext=jpg);
+     border: 3px black;
+     height: 400px;
+     width: 400px;
+     background-size: cover;
+     margin: 10px;
+  }
+     .container .card3{
+        background-image: url(https://img.freepik.com/free-photo/young-woman-having-idea-while-studying_23-2147657039.jpg?size=626&ext=jpg);
+        border: 3px black;
+        height: 400px;
+        width: 400px;
+        background-size: cover;
+        margin: 10px;
+        
+  }
+     .container .card4{
+           background-image: url(https://img.freepik.com/free-photo/young-woman-having-idea-while-studying_23-2147657039.jpg?size=626&ext=jpg);
+           border: 3px black;
+           height: 400px;
+           width: 300px;
+           background-size: cover;
+           margin: 10px;
+  }
+  .html_table{
+ background-image: linear-gradient(30deg,blue,white);
+text-align: center;
+border: black;
+}
+.html_table h2{
+text-align: center;
+color: black;
+font-size: x-large;
+padding: 5px;
+font-family:Arial, Helvetica, sans-serif;
+}
+.html_table table{
+margin: 20px;
+width: 100px;
+}
+.html_table table .td,tr,th{
+padding: 50px;
+text-align: center;
+border-bottom: 3px black;
+color: black;
+}
+.html_form{
+    padding: 50px;
+ }
+ .html_form form{
+    margin: 20px;
+    margin-left: 440px;
+    padding: 20px;
+    box-shadow: 5px 5px 26px darkblue;
+    border-inline: 2px solid black;
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+ }
+ .html_form form h2{
+    color:black;
+    text-shadow: 2px 2px 4px yellow;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+ }
+ .html_form form input{
+    width: 90%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: black;
+    outline:darkred;
+    border-left: 2px darkred;
+ }
+ .html_form form input:focus{
+    border-left: 4px solid darkred;
+    border-right: 4px solid darkred;
+    box-shadow: 3px 3px 8px yellow;
+ }
+ .html_form form select{
+    width: 90%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border-left: 2px darkred;
+ }
+ .html_form form select:focus{
+    border-left: 4px darkred;
+ }
+ .html_form form button{
+    margin: 10px;
+    padding: 10px;
+    border: navajowhite;
+    background-color:darkred;
+    color:black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 2px 1px 8px black;
+ }
+ .nav_top{
+    position:fixed;
+    top: 2px;
+    right: 5px;
+    left: 3px;
+ }
+ .logo{
+    width: 20%;
+ }
+ .logo img{
+    padding: 10px;
+    background-blend-mode:color;
+ }
+ .nav_side{
+    margin-top: 20px;
+    margin-left: 20px;
+ }
+.nav_side a{
+   text-decoration: none;
+   font-weight:bolder;
+   font-size:large;
+   margin-right: 60px;
+   padding-top: 30px;
+   
+}
+.nav_side a:hover{
+    color:darkred;
+}
+p span{
+    color: black;
+    font-weight: 850;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+}
+.main{
+    background-image:url("https://wallpapertag.com/wallpaper/full/f/a/d/315938-science-background-1920x1080-download-free.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 65vh;
+ }
+.main .main_content{
+    margin-top: 90px;
+    padding-top: 150px;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+    color:whitesmoke;
+    text-align: center;
+}
+.main .main_content h1{
+    color:whitesmoke;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+}
+.product h2{
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family:'Times New Roman', Times, serif;
+}
+.product .product_container{
+    display: flexbox;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    padding: 5px;
+    margin: 33px;
+}   
+.product .product_container .item{
+    width: 500px;
+    margin: 10px;
+    height: 200px;
+    margin-top: -0.90%;
+}
+.product .product_container .item:hover{
+    box-shadow: 0px 3px 65px 0px  rgb(228, 179, 19) ;
+
+}
+.product .product_container .item .item_img{
+    width: 440px;
+    height: 250px;
+    margin-top: -5%;
+    overflow: hidden;
+}
+.product .product_container .item .item_img img{
+    width: 440px;
+    height: 250px; 
+}
+.product .product_container .item .item_content{
+    text-align: center;
+}
+.product .product_container .item .item_content h3{
+    padding: 10px;
+    font-size: 25px;
+    text-shadow: 1px 3px 5px #64f95f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.product .product_container .item .item_content p{
+    padding: -1px;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: solid black;
+    background-color: white;
+}
+.product .product_container .item .item_content a{
+        text-decoration: none;
+        margin: 80px;
+        padding:  10px 20px;
+        background-color:red;
+        color: white;
+        font-family:'Times New Roman', Times, serif;
+        text-align: center;
+        border:  solid black;
+        border-radius: 10px;
+
+}
+.product .product_container .item .item_content a:hover{
+    color:black;
+    background-color:yellow;
+    border:none;
+    border-bottom: 4px solid black;
+    transform: -5s;
+}
+.product .product_btn{
+    text-align: center;
+    margin-top: 100px;
+}
+.product .product_btn a{
+    text-decoration: none;
+    margin: 80px;
+    padding: 10px 10px;
+    background-color:blue;
+    font-family:'Times New Roman', Times, serif;
+    border: 2px solid black;
+ border-bottom:  4px solid black;
+    text-align: center;
+    border-radius: 10px;
+    transition: -5s;
+    color:white;
+}
+.product .product_btn a:hover{
+color:orange;
+background-color:black;
+box-shadow: 0px 2px 5px rgb(17, 17, 16);
+border-bottom: 2px solid orange;
+transform: -5s;
+}
+.feed{
+    padding: 50px;
+    background-image: url(216000_3317d1371119944-share-your-wallpapers-13514-horizontal-flames-1920x1080-abstract-wallpaper-jpg_1420x798_h.jpg);
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.hh-ASG96oPbbtWm5o5vsJAHaEo&pid=Api&P=0&w=267&h=168);
+    background-size: cover;
+}
+.feed h2{
+    color:aliceblue;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    transform: uppercase;
+}
+.feed .feed_form{
+    text-align: center;
+}
+.feed .feed_form form{
+    padding: 20px;
+}
+.feed .feed_form form input{
+    width: 30%;
+    margin: 5px;
+    padding: 8px;
+    outline: none;
+    border: none;
+}
+.feed .feed_form form textarea{
+    width: 30%;
+    margin: 5px;
+    padding: 8px;
+    outline: none;
+    border: none;
+}
+.feed .feed_form form button{
+    width: 30%;
+    margin: 5px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    background-color:black;
+    color: aliceblue;
+    border-radius: 5px;
+}
+footer{
+    background-color:darkred;
+    background-size:100px;
+     padding: 50px;
+  }
+  .logo img{
+     padding: 10px;
+     float:inline-start;
+  }
+  footer .pages{
+     text-align: center;
+  }
+  footer .pages h3{
+     color:black;
+     font-size: 30px;
+     font-family: 'Times New Roman', Times, serif;
+     padding: 2px;
+     margin-bottom: 19px;
+  }
+  footer .pages a{
+     text-decoration: none;
+     margin: 10px;
+     color:rgb(233, 236, 240);
+     font-size: 22px;
+     font-family: 'Times New Roman', Times, serif;
+     border: 2px 2px 1px #2e4bd1;
+     outline:2px 2px 1px #95a1dc;
+  }
+  footer .pages a:hover{
+     color: white;
+  }
+  footer .logo a{
+     border-image: stretch;
+  } 
+  footer .doc{
+     text-align: center;
+  }
+  footer .doc h3{
+     color:black;
+     font-size: 30px;
+     font-family: 'Times New Roman', Times, serif;
+     padding: 2px;
+     margin-top: -5px;
+     margin-bottom: 19px;
+  }
+  footer .doc a{
+     text-decoration: none;
+     margin: 10px;
+     color:rgb(238, 243, 252);
+     font-size: 22px;
+     font-family: 'Times New Roman', Times, serif;
+     border: 2px 2px 4px #2e4bd1;
+     outline:2px 2px 4px #95a1dc;
+  }
+  footer .doc a:hover{
+     color: white;
+  }
+  footer .doc a{
+     border-image: stretch;
+  } 
+  footer .Social{
+     text-align: center;
+  }
+  footer .Social h3{
+     color:black;
+     font-size: 30px;
+     font-family: 'Times New Roman', Times, serif;
+     padding: 5px;
+     margin-top: -5px;
+     margin-bottom: 19px;
+  }
+  footer .Contact{
+     text-align: center;
+  }
+  footer .Contact h3{
+     color:black;
+     font-size: 30px;
+     font-family: 'Times New Roman', Times, serif;
+     padding: 5px;
+     margin-top: -5px;
+     margin-bottom: 19px;
+  }
+  footer p{
+      color: aliceblue;
+      background-color: black;
+  }
+
